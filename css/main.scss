@@ -1,0 +1,549 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+  font-family: DM Sans;
+  width: 320px;
+  background: #E5E5E5;
+
+  header {
+    height: 295px;
+    background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .logo-container {
+
+      width: 151px;
+      height: 24px;
+      margin-top: 39px;
+
+    }
+
+    .subheader-container {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin-top: 33px;
+
+
+      width: 288px;
+      height: 218px;
+
+
+      h1 {
+        width: 288px;
+        height: 78px;
+
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 26px;
+
+        text-align: center;
+        color: #FFFFFF;
+      }
+
+      .batata-text {
+        width: 288px;
+        height: 36px;
+
+        margin-top: 24px;
+
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+
+        text-align: center;
+
+        color: #FFE9D5;
+
+      }
+
+      .planes-container {
+        display: flex;
+        align-items: flex-start;
+        padding: 12px 0px 0px 16px;
+
+        width: 229px;
+        height: 48px;
+        left: 29.5px;
+
+        background: #FAF8F7;
+
+        box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+        border-radius: 4px;
+        margin: 32px auto 0px auto;
+
+
+        .planes-text {
+          width: 165px;
+          height: 18px;
+
+          font-weight: bold;
+          font-size: 14px;
+          line-height: 18px;
+          text-align: center;
+
+          color: #201E1C;
+        }
+
+        .down-arrow {
+          position: relative;
+          left: 14px;
+          top: 6px;
+        }
+      }
+    }
+  }
+
+  .bitcoin-container { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .bitcoin-img-container {
+      margin-top: 59px;
+      width: 195px;
+      height: 195px;
+  
+      background: url('../assets/img/Bitcoin.svg');
+    }
+
+    .bitcoin-text-container {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      align-items: center;
+      margin-top: 40px;
+    
+  
+      h2 {
+        width: 288px;
+        height: 52px;
+  
+        font-family: DM Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 26px;
+        /* or 108% */
+  
+        text-align: center;
+        margin-bottom: 24px;
+      }
+  
+      .text-bitcoin-banner {
+        width: 288px;
+        height: 54px;
+  
+        font-weight: 500;
+        line-height: 18px;
+  
+        text-align: center;
+  
+        color: #757575;
+  
+        margin-bottom: 48px;
+      }
+  
+      .moneda-container {
+        display: flex;
+        flex-direction: column;
+        width: 235px;
+        height: 194px;
+  
+        .moneda-heading {
+          width: 81px;
+          height: 23px;
+  
+          font-weight: bold;
+          font-size: 18px;
+          line-height: 23px;
+  
+          color: #FF9536;
+        }
+  
+        .sub-moneda {
+          display: flex;
+          margin-top: 12px;
+  
+          .left-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 101px;
+            height: 159px;
+    
+            .subleft-container {
+              display: flex;
+              flex-direction: row;
+              align-items: center;
+              justify-content: center;
+    
+              width: 101px;
+              height: 39px;
+              margin: 0px 1px 1px 0px;
+    
+              background: #FFFFFF;
+    
+              .left-text {
+                width: 77px;
+    
+                font-family: Inter;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 19px;
+    
+                color: #B5B0AC;
+    
+              }
+            }
+    
+            .left-top-border {
+              border-radius: 8px 0px 0px 0px;
+            }
+    
+            .left-bot-border {
+              border-radius: 0px 0px 0px 8px;
+            }
+          }
+    
+          .right-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 101px;
+            height: 159px;
+    
+            .subright-container {
+              display: flex;
+              align-items: center;
+              justify-content: space-around;
+    
+              width: 101px;
+              height: 39px;
+              margin: 0px 0px 1px 1px;
+    
+              background: #FFFFFF;
+  
+              .money-text {
+                width: 49px;
+                height: 17px;
+  
+                font-family: Inter;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+  
+                text-align: center;
+                letter-spacing: -0.02em;
+  
+                color: #757575;
+              }
+            }
+
+            .right-top-border {
+              border-radius: 0px 8px 0px 0px;
+            }
+  
+            .right-bot-border {
+              border-radius: 0px 0px 8px 0px;
+            }
+          }
+           .right-arrow {
+            margin-left: 22px;
+          }
+
+  
+        }
+      }
+    }
+
+    .actualizado-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      width: 173px;
+      height: 31px;
+
+      background: #FFE9D5;
+      border-radius: 8px;
+
+      margin: 16px 45px 65px 0px;
+
+
+      
+     .actualizado-text {
+      height: 15px;
+
+      font-family: Inter;
+      font-style: normal;
+
+      font-size: 12px;
+      line-height: 15px;
+
+      text-align: center;
+
+      color: #282623;
+     }
+    }
+  }
+
+  .info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 320px;
+    height: 910px;
+
+    background: #201E1C;
+
+    .info-heading {
+      width: 288px;
+      height: 52px;
+
+      margin-top: 64px;
+
+      font-family: DM Sans;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 26px;
+
+      text-align: center;
+
+      color: #FFFFFF;
+    }
+
+    .info-subheading {
+      width: 288px;
+      height: 18px;
+
+      margin-top: 24px;
+      margin-bottom: 32px;
+
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 18px;
+
+      text-align: center;
+
+      color: #808080;
+    }
+
+    .info-card {
+      width: 288px;
+      height: 152px;
+
+      margin-bottom: 16px;
+
+      background: #282623;
+
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
+      border-radius: 4px;
+
+      .subinfo-card {
+        display: flex;
+        flex-direction: column;
+        margin-left: 18px;
+
+        .info-icon-card {
+          margin-top: 16px;
+          width: 20px;
+        }
+
+        h4 {
+          height: 18px;
+
+          margin-top: 12px;
+
+          font-family: DM Sans;
+          font-weight: bold;
+          font-size: 18px;
+          line-height: 18px;
+
+          color: #FFFFFF;
+        }
+
+        .info-text {
+          width: 252px;
+          height: 54px;
+
+          margin-top: 10px;
+
+          font-family: DM Sans;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 18px;
+
+          color: #808080;
+        }
+      }
+    }
+  }
+
+  .img-section-container {
+    height: 387px;
+    background: url('../assets/img/bitcoinbaby.jpg');
+
+    display: flex;
+    justify-content: center;
+
+    .img-section-heading {
+      width: 288px;
+      height: 26px;
+
+      margin-top: 64px;
+
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 26px;
+
+      text-align: center;
+
+      color: #FFFFFF;
+    }
+  }
+
+  .costo-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .costo-heading {
+      width: 288px;
+      height: 52px;
+
+      margin-top: 64px;
+
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 26px;
+
+      text-align: center;
+
+      color: #201E1C;
+    }
+
+    .costo-text {
+      width: 288px;
+      height: 36px;
+
+      margin-top: 24px;
+
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 18px;
+      /* or 129% */
+
+      text-align: center;
+
+      color: #757575;
+    }
+
+    .recomendado-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      margin-top: 34px;
+
+      width: 101px;
+      height: 31px;
+
+      background: #F7931A;
+      border-radius: 8px;
+
+      z-index: 1;
+
+      .recomendado-text {
+        width: 85px;
+        height: 15px;
+
+        font-family: Inter;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 15px;
+
+        text-align: center;
+
+        color: #FFFFFF;
+      }
+    }
+
+    .precio-container {
+      margin: -13px;
+
+
+      .card-precio {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        width: 190px;
+        height: 247px;
+  
+        background: #FFFFFF;
+  
+        box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+        border-radius: 8px;
+
+        .card-precio-heading {
+          margin-top: 31px;
+          width: 73px;
+          height: 18px;
+
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 18px;
+
+          color: #000000;
+        }
+
+        .costo-numero-container {
+          width: 77px;
+          height: 56px;
+
+          display: flex;
+
+          margin-top: 8px;
+
+          .img-costo {
+            width: 8px;
+            height: 15px;
+
+            color: #363636;
+          }
+
+          .costo-numero {
+            width: 65px;
+            height: 56px;
+
+            font-family: Inter;
+            font-weight: bold;
+            font-size: 52px;
+            line-height: 63px;
+            letter-spacing: -0.08em;
+          }
+        }
+      }
+
+    }
+
+  }
+
+}
