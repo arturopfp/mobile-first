@@ -462,12 +462,12 @@ body .costo-container {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  height: 537px;
 }
 
 body .costo-container .costo-heading {
   width: 288px;
   height: 52px;
-  margin-top: 64px;
   font-weight: bold;
   font-size: 24px;
   line-height: 26px;
@@ -561,6 +561,7 @@ body .costo-container .precio-container .card-precio .costo-numero-container {
 body .costo-container .precio-container .card-precio .costo-numero-container .img-costo {
   width: 8px;
   height: 15px;
+  margin-top: 7px;
   color: #363636;
 }
 
@@ -572,5 +573,117 @@ body .costo-container .precio-container .card-precio .costo-numero-container .co
   font-size: 52px;
   line-height: 63px;
   letter-spacing: -0.08em;
+}
+
+body .costo-container .precio-container .card-precio .ahorro-text {
+  width: 158px;
+  height: 30px;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  margin-top: 16px;
+  color: #757575;
+}
+
+body .costo-container .precio-container .card-precio .cambiarplan-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 12px 16px;
+  width: 151px;
+  height: 48px;
+  margin-top: 16px;
+  margin-bottom: 64px;
+  background: #FAF8F7;
+  border: 2px solid #F7931A;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 4px;
+}
+
+body .costo-container .precio-container .card-precio .cambiarplan-container .cambiarplan-text {
+  width: 87px;
+  height: 18px;
+  font-family: DM Sans;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  color: #201E1C;
+}
+
+body .costo-container .precio-container .card-precio .cambiarplan-container .cambiarplan-arrow {
+  margin-top: -3px;
+  margin-left: 4px;
+  width: auto;
+  height: auto;
+}
+
+body footer {
+  width: 320px;
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #F7931A;
+}
+
+body footer .subfooter-container {
+  width: 200px;
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body footer .subfooter-container ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body footer .subfooter-container ul li {
+  list-style: none;
+}
+
+body footer .subfooter-container ul li a {
+  text-decoration: none;
+  width: 56px;
+  height: 18px;
+  font-family: DM Sans;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+body footer .subfooter-container .footer-logo {
+  width: 64px;
+  height: 50px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 /*# sourceMappingURL=main.css.map */
